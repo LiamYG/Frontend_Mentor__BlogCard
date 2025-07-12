@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="stylesheet" href="./styles/app.css">
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./styles/app.css" />
     <title>Frontend Mentor | Blog preview card</title>
-
 </head>
 
 <body>
 
-<div class="blog">
+<main>
+    <article class="container-card" aria-label="Blog preview card">
 
-    <div class="container-card">
+        <header class="header_container">
+            <img src="./assets/images/illustration-article.svg" alt="Illustration of HTML and CSS article" class="header-image__image" />
+        </header>
 
-        <section class="header_container">
-            <img src="./assets/images/illustration-article.svg" alt="Victor Crest" class="header-image__image">
-        </section>
+        <div class="body_container">
+            <p class="btn-paragraph">Learning</p>
+            <p class="label_date">Published 21 Dec 2023</p>
+            <h2 class="body-txt">HTML & CSS foundations</h2>
+            <p class="body-paragraph">
+                These languages are the backbone of every website, defining structure, content, and presentation.
+            </p>
+        </div>
 
-        <section class="body_container">
-            <main class="main_container">
-                <p class="btn-paragraph">Learning</p>
-                <p class="label_date">Published 21 Dec 2023</p>
-                <h1 class="body-txt">
-                    HTML & CSS foundations
-                </h1>
-                <p class="body-paragraph">
-                    These languages are the backbone of every <br>
-                    website, defining structure, content, and <br>
-                    presentation
-                </p>
-            </main>
-        </section>
+        <footer class="footer_container">
+            <img src="./assets/images/image-avatar.webp" alt="Avatar of Greg Hooper" class="footer-img__avatar" />
+            <p class="footer-txt">Greg Hooper</p>
+        </footer>
 
-        <section class="footer_container">
-            <footer class="inf">
-                <figure class="footer-img">
-                    <img src="./assets/images/image-avatar.webp" alt="Victor Crest" class="footer-img__avatar">
-                </figure>
-                <p class="footer-txt">Greg Hooper</p>
-            </footer>
-        </section>
-
-    </div>
-
-</div>
+    </article>
+</main>
 
 </body>
-
 </html>
