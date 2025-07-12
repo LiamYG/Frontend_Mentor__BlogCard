@@ -214,7 +214,7 @@ template {
     box-sizing: inherit;
 }
 
-body {
+.blog {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,14 +222,12 @@ body {
     background-color: var(--Yellow);
 }
 
-/**/
-
 .container-card {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    width: 384px;
-    height: 522px;
+    width: 24rem;
+    height: 32.625rem;
     border-radius: 1.5rem;
     padding: 1.5rem;
     border: 0.0625rem solid var(--Gray950);
@@ -242,16 +240,6 @@ body {
     box-shadow: 0.75rem 0.75rem var(--Gray950);
 }
 
-/**/
-
-.header_container{
-}
-
-.header-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .header-image__image {
     border-radius: 1rem;
@@ -259,8 +247,6 @@ body {
     width: 100%;
     height: 100%;
 }
-
-/*!**!*/
 
 .body_container {
     display: flex;
@@ -283,7 +269,7 @@ body {
     border-radius: 0.25rem ;
     background-color: var(--Yellow);
     border: var(--Yellow);
-    font-family: "FigtreeEB",sans-serif;
+    font-family: FigtreeEB,sans-serif;
     color: var(--Gray950);
     text-align: center;
     font-size: 1rem;
@@ -291,14 +277,14 @@ body {
 }
 
 .label_date {
-    font-family: "FigtreeM",sans-serif;
+    font-family: FigtreeM,sans-serif;
     color: var(--Gray950);
     font-size: 14px;
     padding-top: 1rem;
 }
 
 .body-txt {
-    font-family: "FigtreeEB", serif;
+    font-family: FigtreeEB, serif;
     color: var(--Gray950);
     font-size: 1.5rem;
 
@@ -309,12 +295,11 @@ body {
 }
 
 .body-paragraph {
-    font-family: "FigtreeM" , sans-serif;
+    font-family: FigtreeM, sans-serif;
     color: var(--Gray500);
     font-size: 1rem;
 }
 
-/*!**!*/
 
 .footer_container{
     display: flex;
@@ -338,7 +323,7 @@ body {
 }
 
 .footer-txt{
-    font-family: "FigtreeEB",sans-serif;
+    font-family: FigtreeEB,sans-serif;
     color: var(--Gray950);
     font-size: 14px;
 }
